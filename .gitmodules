@@ -1,0 +1,15 @@
+[submodule "/Users/mathieu.montgomery/dotfiles/oh-my-zsh"]
+	path = /Users/mathieu.montgomery/dotfiles/oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "/Users/mathieu.montgomery/dotfiles/zsh-plugins/zsh-autosuggestions"]
+	path = /Users/mathieu.montgomery/dotfiles/zsh-plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "/Users/mathieu.montgomery/dotfiles/zsh-plugins/zsh-syntax-highlighting"]
+	path = /Users/mathieu.montgomery/dotfiles/zsh-plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "/Users/mathieu.montgomery/dotfiles/zsh-plugins/alias-tips"]
+	path = /Users/mathieu.montgomery/dotfiles/zsh-plugins/alias-tips
+	url = https://github.com/djui/alias-tips
+[submodule "/Users/mathieu.montgomery/dotfiles/zsh-plugins/powerlevel10k"]
+	path = /Users/mathieu.montgomery/dotfiles/zsh-plugins/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
