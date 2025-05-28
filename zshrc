@@ -132,6 +132,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Load general aliases if available
+[ -f ~/.zsh_aliases ] && source ~/.zsh_aliases
+
 # Load personal config if available
 [ -f ~/dotfiles/zsh_private/zshrc_personal ] && source ~/dotfiles/zsh_private/zshrc_personal
 [ -f ~/dotfiles/zsh_private/aliases_personal ] && source ~/dotfiles/zsh_private/aliases_personal
@@ -160,5 +163,5 @@ setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording en
 setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
 setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
-# Open code edits with vscode
-export EDITOR="code --wait"
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
