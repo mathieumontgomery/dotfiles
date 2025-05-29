@@ -1,11 +1,17 @@
 # Dotfiles
 Personnal dotfile configuration with: 
 - `zsh` + `oh-my-zsh`,
-- `p10k`,
+- `p10k` (a default theme is included),
 - custom aliases and zshrc for personnal and company.
 
 ## Installation
-1) To clone, `git clone --recurse-submodules git@github.com:mathieumontgomery/dotfiles.git ~/dotfiles`
-	Or if the repo has already been clones, `git submodule update --init --recursive`
-2) Run `install.sh`,
-3) Create folder `zsh_private/` with `aliases_[company|personal]` and `zshrc_[company|personal]`.
+1) Run `install.sh`
+2) To add default theme included, 
+```bash
+[ -f ~/.p10k.zsh ] && rm ~/.p10k.zsh
+ln -s ~/dotfiles/zshrc ~/.zshrc
+```
+/!\ This will delete current configuration for oh-my-zsh 
+
+## Update
+1) Run `install.sh`
