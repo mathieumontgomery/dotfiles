@@ -162,3 +162,10 @@ setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
 # Open code edits with vscode
 export EDITOR="code --wait"
+
+
+# Setup pyenv-virtualenv
+eval "$(pyenv virtualenv-init -)"
+
+
+export UV_PYTHON_INSTALL_DIR="$HOME/.uv"
